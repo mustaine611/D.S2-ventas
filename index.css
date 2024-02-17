@@ -1,9 +1,15 @@
+
+.Logo{
+  width:60%;
+  margin-left: 30%;
+  margin-right: 20%;
+  height:200px;
+  margin-bottom: 0%;
+
+}
+
 .Nombre {
   color: black ;  
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.Logo{
-  width:60%;
-  height:400px;
-  
+  margin-top: 0%;
 }
