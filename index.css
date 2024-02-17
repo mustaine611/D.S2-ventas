@@ -39,17 +39,13 @@ body {
 }
 
 .Logo{
-  width:60%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  height:200px;
-  margin-bottom: 0%;
-  max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
-  margin-right: 20px; /* Añade margen a la derecha para separar la imagen de los enlaces */
- 
+  width: 50%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
-
+.logo img{
+  width: 100%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
 .navbar{
   background-color: #0c2b33;
   overflow: hidden;
