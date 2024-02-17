@@ -22,7 +22,7 @@ h1{
   color: var(--blanco)
  
 }
-h2{
+h2,h5{
   text-align: center;
   color: var(--negro)
   font-family: var(--fuentePrincipal)
