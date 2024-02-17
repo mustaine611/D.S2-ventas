@@ -1,0 +1,51 @@
+
+.Nombre {
+  color: black ;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 35%;
+
+  text-align: justify;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Logo{
+  width:60%;
+  margin-left: 5%;
+  margin-right: 20%;
+  margin-top: 2%;
+  height:200px;
+  margin-bottom: 0%;
+  max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
+  margin-right: 10px; /* Añade margen a la derecha para separar la imagen de los enlaces */
+}
+
+.navbar{
+  background-color: #0c2b33;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.Funcionalidades {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: larger;
+ 
+}
