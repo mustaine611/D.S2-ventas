@@ -13,10 +13,29 @@
 .Nombre {
   color: var(--secundario)
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 35%;
+  margin-top: 30%;
   text-align: justify;
 }
 
+h1{
+  text-align: center;
+  color: var(--blanco)
+ 
+}
+h2{
+  text-align: center;
+  color: var(--negro)
+  font-family: var(--fuentePrincipal)
+}
+p{
+  text-align: center;
+  color: var(--negro)
+  font-family: var(--fuentePrincipal)
+}
+.txt{
+  text-align: center;
+  padding-top: 2%;
+}
 
 body {
   margin: 0;
@@ -32,6 +51,7 @@ body {
   margin-bottom: 0%;
   max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
   margin-right: 10px; /* Añade margen a la derecha para separar la imagen de los enlaces */
+  text-align: center;
 }
 
 .navbar{
