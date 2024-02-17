@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 .Logo{
   width:60%;
@@ -14,19 +13,11 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 0%;
 }
-=======
-.Logo{
-    width:60%;
-    margin-left: 30%;
-    margin-right: 20%;
-    height:200px;
-    margin-bottom: 0%;
-  
-  }
-  
-  .Nombre {
-    color: black ;  
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 0%;
-  }
->>>>>>> 702c4a327c6a6d61ec32d9842d498ea77c531de3
+
+.Login{
+  width:30%;
+  margin-left: 0.1%;
+  margin-right: 20%;
+  height:100px;
+  margin-bottom: 0%;
+}
