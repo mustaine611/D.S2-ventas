@@ -30,7 +30,7 @@ h2{
 p{
   text-align: center;
   color: var(--negro)
-  font-family: var(--fuentePrincipal)
+  
 }
 .txt{
   text-align: center;
@@ -44,14 +44,14 @@ body {
 
 .Logo{
   width:60%;
-  margin-left: 5%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 2%;
   height:200px;
   margin-bottom: 0%;
   max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
-  margin-right: 10px; /* Añade margen a la derecha para separar la imagen de los enlaces */
-  text-align: center;
+  margin-right: 20px; /* Añade margen a la derecha para separar la imagen de los enlaces */
+ 
 }
 
 .navbar{
