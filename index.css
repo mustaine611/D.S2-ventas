@@ -1,9 +1,19 @@
+:root {
+  --primario: #9c27b0;
+  --primarioOscuro: #89119d;
+  --secundario: #ffce00;
+  --secundarioOscuro: rgb(233, 287, 2);
+  --blanco: #fff;
+  --negro: #000;
 
+  --fuentePrincipal: font-family: 'Staatliches', cursive;
+  /* Fuente desde Google Fonts}*/
+
+}
 .Nombre {
-  color: black ;  
+  color: var(--secundario)
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-top: 35%;
-
   text-align: justify;
 }
 
@@ -48,4 +58,11 @@ body {
   width: 100%;
   font-size: larger;
  
+ 
 }
+
+.footer_texto{
+  text-align: center;
+  font-family: var(--fuentePrincipal);
+}
+  
