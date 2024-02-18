@@ -112,6 +112,15 @@ li a:hover:not(.active) {
     width: 100%;
   }
  }
+
+ .Descripcion{
+  border: 2px solid #0c2b33;
+  border-left: 30px solid #0c2b33;
+  border-right: 30px solid #0c2b33;
+  border-radius: 20px; /*redondear esquinas*/
+  background-color: #48494ba6;
+
+ }
 .footer_texto{
   text-align: center;
   font-family: var(--fuentePrincipal);
