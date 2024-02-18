@@ -1,12 +1,42 @@
+:root {
+  --primario: #9c27b0;
+  --primarioOscuro: #89119d;
+  --secundario: #ffce00;
+  --secundarioOscuro: rgb(233, 287, 2);
+  --blanco: #fff;
+  --negro: #000;
 
-.Nombre {
-  color: black ;  
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 35%;
+  --fuentePrincipal: font-family: 'Staatliches', cursive;
+  /* Fuente desde Google Fonts}*/
 
-  text-align: justify;
 }
 
+.Nombre h2 {
+  position:relative;
+  margin-top: 180px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: var(--blanco)
+ 
+}
+h2,h5{
+  text-align: center;
+  color: var(--negro)
+  
+  
+}
+p{
+  text-align: center;
+  color: var(--negro)
+  
+}
+.txt{
+  text-align: center;
+  padding-top: 2%;
+}
 
 body {
   margin: 0;
@@ -14,17 +44,18 @@ body {
 }
 
 .Logo{
-  width:60%;
-  margin-left: 5%;
-  margin-right: 20%;
-  margin-top: 2%;
-  height:200px;
-  margin-bottom: 0%;
-  max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tus necesidades */
-  margin-right: 10px; /* Añade margen a la derecha para separar la imagen de los enlaces */
+  width: 50%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  float: left;
+  margin-top: 12;
 }
-
+.logo img{
+  width: 100%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: 95px; /* Mantiene la proporción de la imagen */
+}
 .navbar{
+  position: fixed;
+  width: 100%;
   background-color: #0c2b33;
   overflow: hidden;
   display: flex;
@@ -37,10 +68,34 @@ body {
   display: block;
   color: white;
   text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c2b33;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
+
+} 
 
 .Funcionalidades {
   position: fixed;
@@ -48,4 +103,25 @@ body {
   width: 100%;
   font-size: larger;
  
+ 
+}
+
+ /*Diseño responsivo: hace que las columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+ @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+ }
+
+ .Descripcion{
+  border: 2px solid #0c2b33;
+  border-left: 30px solid #0c2b33;
+  border-right: 30px solid #0c2b33;
+  border-radius: 20px; /*redondear esquinas*/
+  background-color: #48494ba6;
+
+ }
+.footer_texto{
+  text-align: center;
+  font-family: var(--fuentePrincipal);
 }
