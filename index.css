@@ -11,6 +11,11 @@
 
 }
 
+.Nombre h2 {
+  position:relative;
+  margin-top: 180px;
+  text-align: center;
+}
 
 h1{
   text-align: center;
@@ -41,12 +46,16 @@ body {
 .Logo{
   width: 50%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
+  float: left;
+  margin-top: 12;
 }
 .logo img{
   width: 100%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  height: 95px; /* Mantiene la proporción de la imagen */
 }
 .navbar{
+  position: fixed;
+  width: 100%;
   background-color: #0c2b33;
   overflow: hidden;
   display: flex;
@@ -59,10 +68,34 @@ body {
   display: block;
   color: white;
   text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c2b33;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
+
+} 
 
 .Funcionalidades {
   position: fixed;
@@ -73,8 +106,13 @@ body {
  
 }
 
+ /*Diseño responsivo: hace que las columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+ @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+ }
 .footer_texto{
   text-align: center;
   font-family: var(--fuentePrincipal);
 }
-  
