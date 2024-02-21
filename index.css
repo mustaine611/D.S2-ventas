@@ -93,7 +93,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
+  background-color: #1c83ac; /*modifica el fondo mientras el cursos esta sobre el item*/
 
 } 
 
