@@ -68,7 +68,7 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 8px 12px;
+  padding: 12px 12px;
   text-decoration: none;
 }
 
@@ -126,63 +126,48 @@ li a:hover:not(.active) {
   font-family: var(--fuentePrincipal);
 }
 
-/*iniciar sesion
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*iniciar sesion */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+        
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-nav {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 15px;
+        
+.dropdown-content input[type="text"],
+.dropdown-content input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
-
-#login-form {
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 100;
+        
+.dropdown-content input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-
-#login-link:focus + #login-form,
-#login-form:focus-within {
-  display: block;
+        
+.dropdown-content input[type="submit"]:hover {
+    background-color: #0056b3;
 }
-
-label {
-  display: block;
-  margin-bottom: 8px;
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-} */

@@ -41,42 +41,32 @@ Paulo Andres Arboleda Bolivar
       
     <div class="Funcionalidades">
         <nav class="navbar">
-            
+            <div class="Logo">
+                <a href="#">
+                    <img src="https://www.lavanguardia.com/files/image_449_220/uploads/2017/02/13/5fa3c330ec5aa.jpeg" alt="Logo">
+                </a>
                 
-                <div class="Logo">
-                    <a href="#">
-                    <img src=https://www.lavanguardia.com/files/image_449_220/uploads/2017/02/13/5fa3c330ec5aa.jpeg alt="Logo"></a>  
-                    
+            </div>
             <ul>
                 <h1>VUELA EQUIPADO</h1>
-                
-                <li><a href="#index">Registrarse</a></li>
-                <li><a href="#index" >Iniciar Sesion</a></li>
-                 <li><a href="#index" >Tienda Online</a></li>
-                
-             </ul>
+                <a><li href="#index">Registrarse</a></li>
+                <li  class="dropdown">
+                    <a href="#" class="dropbtn">Iniciar Sesión</a>
+                    <div class="dropdown-content">
+                        <form action="">
+                            <input type="text" name="username" placeholder="Nombre de Usuario" required>
+                            <input type="password" name="password" placeholder="Contraseña" required>
+                            
+                            <input type="submit" value="Iniciar Sesión" onclick="alert('Haz iniciado sesión correctamente')" value="submit">
+                        </form>
+                    </div>
+                </li>
+                <li><a href="#Tienda">Tienda Online</a></li>
+            </ul>
         </nav>
-     </div>
-<!---Iniciar sesion 
-     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a id="login-link" href="#">Iniciar Sesión</a>
-        <div id="login-form" tabindex="0">
-            <form>
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username" required>
-
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" required>
-
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-        </div>
-    </nav> 
+    </div>
 
 
--->
 
         <div class="Descripcion">
             <div class="texto1">
