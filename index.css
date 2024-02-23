@@ -10,6 +10,10 @@
   /* Fuente desde Google Fonts}*/
 
 }
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 .Nombre {
   position:relative;
   margin-top: 180px;
