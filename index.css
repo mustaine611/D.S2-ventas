@@ -10,6 +10,10 @@
   /* Fuente desde Google Fonts}*/
 
 }
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 .Nombre {
   position:relative;
   margin-top: 180px;
@@ -102,13 +106,8 @@ li a {
 }
 
 li a:hover:not(.active) {
-<<<<<<< HEAD
-  background-color: #1c83ac; /*modifica el fondo mientras el cursos esta sobre el item*/
-
-=======
   background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
   
->>>>>>> Mariacbr
 } 
 
 .Funcionalidades {
@@ -139,8 +138,6 @@ li a:hover:not(.active) {
   text-align: center;
   font-family: var(--fuentePrincipal);
 }
-<<<<<<< HEAD
-=======
 
 /*iniciar sesion */
 .dropdown {
@@ -196,4 +193,3 @@ li a:hover:not(.active) {
   font-size: 14px; /* Ajusta el tamaño según tus necesidades */
   color: #999; /* Color del placeholder */
 }
->>>>>>> Mariacbr
