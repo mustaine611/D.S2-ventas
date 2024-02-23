@@ -16,13 +16,14 @@
 }
 .Nombre {
   position:relative;
-  margin-top: 180px;
+  margin-top: 220px;
   text-align: center;
   color: var(--secundario)
   
 }
 h1{
   text-align: center;
+  font-size: larger;
   color: var(--blanco)
   
  
