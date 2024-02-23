@@ -10,16 +10,17 @@
   /* Fuente desde Google Fonts}*/
 
 }
-
-.Nombre h2 {
+.Nombre {
   position:relative;
   margin-top: 180px;
   text-align: center;
+  color: var(--secundario)
+  
 }
-
 h1{
   text-align: center;
   color: var(--blanco)
+  
  
 }
 h2,h5{
@@ -60,6 +61,7 @@ body {
   overflow: hidden;
   display: flex;
   text-align: center;
+ 
   
 }
 
@@ -75,13 +77,19 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 50px;
   overflow: hidden;
   background-color: #0c2b33;
+  display: inline-block;
+  width: 100%;
+  font-size: larger;
+ 
+  
 }
 
 li {
   float: left;
+  
 }
 
 li a {
@@ -90,11 +98,17 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 li a:hover:not(.active) {
+<<<<<<< HEAD
   background-color: #1c83ac; /*modifica el fondo mientras el cursos esta sobre el item*/
 
+=======
+  background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
+  
+>>>>>>> Mariacbr
 } 
 
 .Funcionalidades {
@@ -125,3 +139,61 @@ li a:hover:not(.active) {
   text-align: center;
   font-family: var(--fuentePrincipal);
 }
+<<<<<<< HEAD
+=======
+
+/*iniciar sesion */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+  
+}
+        
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    width: 170px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+        
+.dropdown-content input[type="text"],
+.dropdown-content input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+        
+.dropdown-content input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+        
+.dropdown-content input[type="submit"]:hover {
+    background-color: #0056b3;
+    font-size: 14px;
+}
+ /* Estilo para el placeholder */
+ ::placeholder {
+  font-size: 14px; /* Ajusta el tamaño según tus necesidades */
+  color: #999; /* Color del placeholder */
+}
+>>>>>>> Mariacbr
