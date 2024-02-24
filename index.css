@@ -245,3 +245,14 @@ li a:hover:not(.active) {
   margin-top: 1%;
   
 }
+body {
+  /* Estilos para el modo claro */
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  /* Estilos para el modo oscuro */
+  background-color: #333333;
+  color: #ffffff;
+}
