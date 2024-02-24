@@ -17,7 +17,7 @@
 
 .form_comentarios textarea{
 	width: 100%;
-	height: 84px;
+	height: 120px;
 	max-width:100%;
 	min-width: 100%;
 	padding: 10px;
@@ -28,8 +28,8 @@
 }
 
 .form_comentarios .btn{
-	background: #9400d3;
-	border-radius: 20;
+	background: #0062d3;
+  border-radius: 20px;
 	color: #fff; 
 	margin-bottom: 20px;
 
@@ -37,6 +37,7 @@
 
 .form_comentarios .btn:hover{
 	box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+ 
 }
 
 .texto{
@@ -45,7 +46,7 @@
 }
 .Nombre {
   position:relative;
-  margin-top: 220px;
+  margin-top: 180px;
   text-align: center;
   color: var(--secundario)
   
@@ -56,6 +57,12 @@ h1{
   color: var(--blanco)
   
  
+}
+h4{
+  text-align: center;
+  color: var(--negro)
+  
+
 }
 h2,h5{
   text-align: center;
@@ -74,7 +81,7 @@ p{
 }
 
 body {
-	background: #1e90FF;
+	background: #edceee88;
   	margin: 0;
   	font-family: Arial, sans-serif;
 }
@@ -223,4 +230,18 @@ li a:hover:not(.active) {
  ::placeholder {
   font-size: 14px; /* Ajusta el tamaño según tus necesidades */
   color: #999; /* Color del placeholder */
+}
+.Imagenes{
+  width: 25%; 
+  height: 170px; 
+  border-radius: 20px; /*redondear esquinas*/
+  border: 2px solid #0c2b33;
+  margin-top: 3%;
+  
+}
+.Redes_Sociales img{
+  width: 10%; 
+  height: 70px; 
+  margin-top: 1%;
+  
 }
