@@ -27,6 +27,18 @@
        margin-bottom: 20px; 	
 }
 
+.form_comentarios .btn{
+	background: #9400d3;
+	border-radius: 20;
+	color: #fff; 
+	margin-bottom: 20px;
+
+} 
+
+.form_comentarios .btn:hover{
+	box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+}
+
 .texto{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
