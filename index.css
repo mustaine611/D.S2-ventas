@@ -1,0 +1,196 @@
+:root {
+  --primario: #9c27b0;
+  --primarioOscuro: #89119d;
+  --secundario: #ffce00;
+  --secundarioOscuro: rgb(233, 287, 2);
+  --blanco: #fff;
+  --negro: #000;
+
+  --fuentePrincipal: font-family: 'Staatliches', cursive;
+  /* Fuente desde Google Fonts}*/
+
+}
+.texto{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.Nombre {
+  position:relative;
+  margin-top: 220px;
+  text-align: center;
+  color: var(--secundario)
+  
+}
+h1{
+  text-align: center;
+  font-size: larger;
+  color: var(--blanco)
+  
+ 
+}
+h2,h5{
+  text-align: center;
+  color: var(--negro)
+  
+  
+}
+p{
+  text-align: center;
+  color: var(--negro)
+  
+}
+.txt{
+  text-align: center;
+  padding-top: 2%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Logo{
+  width: 50%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  float: left;
+  margin-top: 12;
+}
+.logo img{
+  width: 100%; /* Hace que la imagen del logo ocupe el 100% del ancho del contenedor */
+  height: 95px; /* Mantiene la proporción de la imagen */
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: #0c2b33;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+ 
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px;
+  overflow: hidden;
+  background-color: #0c2b33;
+  display: inline-block;
+  width: 100%;
+  font-size: larger;
+ 
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #1c83ac; /*Cambiar el fondo mientras el cursos esta sobre el item*/
+  
+} 
+
+.Funcionalidades {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: larger;
+ 
+ 
+}
+
+ /*Diseño responsivo: hace que las columnas se apilen una encima de la otra en lugar de una al lado de la otra */
+ @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+ }
+
+ .Descripcion{
+  border: 2px solid #0c2b33;
+  border-left: 30px solid #0c2b33;
+  border-right: 30px solid #0c2b33;
+  border-radius: 20px; /*redondear esquinas*/
+  background-color: #48494ba6;
+
+ }
+.footer_texto{
+  text-align: center;
+  font-family: var(--fuentePrincipal);
+}
+
+/*iniciar sesion */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+  
+}
+        
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    width: 170px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+        
+.dropdown-content input[type="text"],
+.dropdown-content input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+        
+.dropdown-content input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+        
+.dropdown-content input[type="submit"]:hover {
+    background-color: #0056b3;
+    font-size: 14px;
+}
+ /* Estilo para el placeholder */
+ ::placeholder {
+  font-size: 14px; /* Ajusta el tamaño según tus necesidades */
+  color: #999; /* Color del placeholder */
+}
