@@ -256,3 +256,23 @@ body.dark-mode {
   background-color: #333333;
   color: #ffffff;
 }
+/* Estilos para los botones */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0056b3; /* Color de fondo verde */
+  color: #ffffff; /* Color del texto blanco */
+}
+
+/* Estilo cuando el cursor pasa sobre el botón */
+button:hover {
+  background-color: #46a0e9; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilo cuando se hace clic en el botón */
+button:active {
+  background-color: #274a96; /* Cambiar el color de fondo cuando se hace clic */
+}
